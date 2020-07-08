@@ -4,7 +4,7 @@ const DateMock = require("jest-date-mock");
 const server = require("../server");
 
 beforeAll(() => {
-  DateMock.advanceTo(new Date(2020, 5, 26));
+  DateMock.advanceTo(new Date(2020, 4, 26));
 });
 
 afterAll(() => {
